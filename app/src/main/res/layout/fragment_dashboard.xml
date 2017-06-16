@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.nirvana1.Dashboard"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/discuss_user1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discuss_user1"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/discuss_topic1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discuss_topic1"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="8dp"
+        />
+    <TextView
+        android:id="@+id/discuss_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discuss_question1"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_margin="8dp"
+        />
+
+    <Button
+        android:id="@+id/button_answer_discuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        style="@style/Base.Widget.AppCompat.ButtonBar.AlertDialog"
+        android:background="#ff9e80"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Answers:"
+        android:id="@+id/text_answer_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_marginLeft="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/discuss_answer1"
+        android:layout_margin="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="in windows open the commad prompt and type ipconfig"
+        />
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9ecf4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#818181"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_register"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:background="#818181"
+            android:src="@drawable/ic_add_students" />
+
+        <Button
+            android:id="@+id/imgbutton_register"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:backgroundTint="#717171"
+            android:minHeight="90dp"
+            android:text="@string/action_register"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/category_profile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#818181"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_timetable"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#818181"
+            android:src="@drawable/ic_add_students" />
+
+        <Button
+            android:id="@+id/imgbutton_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:backgroundTint="#717171"
+            android:minHeight="90dp"
+            android:text="@string/action_timetable"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/category_profile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#818181"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#818181"
+            android:src="@drawable/ic_add_students" />
+
+        <Button
+            android:id="@+id/imgbutton_notes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:backgroundTint="#717171"
+            android:minHeight="90dp"
+            android:text="@string/action_notes"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/category_profile" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#818181"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#818181"
+            android:src="@drawable/ic_add_students" />
+
+        <Button
+            android:id="@+id/imgbutton_attendance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:backgroundTint="#717171"
+            android:minHeight="90dp"
+            android:text="@string/action_attendance"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/category_profile" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#818181"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_result"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#818181"
+            android:src="@drawable/ic_add_students" />
+
+        <Button
+            android:id="@+id/imgbutton_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:backgroundTint="#717171"
+            android:minHeight="90dp"
+            android:text="@string/action_result"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/category_profile" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

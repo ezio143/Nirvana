@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.nirvana1.Profile_Activity"
+    tools:showIn="@layout/activity_profile_">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <TableRow
+                android:layout_marginTop="48dp"
+                android:id="@+id/table_profile"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                >
+
+                <TableLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    >
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_name"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_name"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_usn"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_usn"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_dob"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_dob"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_mno"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_mno"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_email"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_email"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_address"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_adress"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_sem"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_semester"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_branch"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_branch"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20px">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:text="@string/profile_section"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:id="@+id/profile_section"
+                            android:layout_height="wrap_content"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:padding="8dp"
+                            android:background="@drawable/table_cell_shape"
+                            android:textAppearance="?android:textAppearanceMedium"/>
+
+                    </TableRow>
+                </TableLayout>
+
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.v4.widget.NestedScrollView>

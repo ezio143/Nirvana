@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.nirvana1.AdminActivity"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_usersenrolled"
+        android:minHeight="60dp"
+        android:backgroundTint="#2525"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:id="@+id/button_enrolledusers"
+        />
+
+    <Button
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_adduser"
+        android:minHeight="60dp"
+        android:minWidth="100dp"
+        android:backgroundTint="#2525"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:id="@+id/button_add"
+        />
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.nirvana1.PostQuestion"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            style="@style/CategoryStyle"
+            android:text="@string/prompt_uname"
+            android:textSize="24sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edit_discuss_username"
+                style="@style/EditorFieldStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint=" Name "
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            style="@style/CategoryStyle"
+            android:text="@string/prompt_topic"
+            android:textSize="24sp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/edit_discuss_topicname"
+                style="@style/EditorFieldStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint=" topic "
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/CategoryStyle"
+            android:text="@string/prompt_question"
+            android:textSize="24sp"
+            />
+
+
+        <EditText
+            android:id="@+id/edit_discuss_question"
+            style="@style/EditorFieldStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:hint=" your question here "
+            android:inputType="textLongMessage"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/post_discuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Post"
+        style="@style/Base.Widget.AppCompat.Button"
+        android:background="#ff9e80"
+        android:clickable="true"
+        />
+
+
+
+
+
+</LinearLayout>

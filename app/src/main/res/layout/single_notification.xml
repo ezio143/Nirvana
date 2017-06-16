@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/quake"
+            android:id="@+id/img_quake"
+            />
+
+    <TextView
+        android:id="@+id/nf_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="8dp"
+        android:layout_toRightOf="@+id/img_quake"
+        tools:text="nf_Name"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nf_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:padding="8dp"
+        tools:text="nf_branch"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nf_content_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        tools:text="hey guys we are happy to inform you about the interrupt 7.0"/>
+
+</LinearLayout>

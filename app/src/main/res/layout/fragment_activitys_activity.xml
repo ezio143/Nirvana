@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.nirvana1.Activitys_Activity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:id="@+id/alist_notification"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/aempty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+
+        <TextView
+            android:id="@+id/aempty_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-medium"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/nfempty_title_text"/>
+        <TextView
+            android:id="@+id/aempty_subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aempty_title_text"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif"
+            android:paddingTop="58dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:text="@string/nfempty_view_subtitle_text"
+            android:textColor="#A2AAB0"/>
+
+    </RelativeLayout>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:id="@+id/aprogress"
+        android:paddingBottom="80dp"
+        />
+
+
+</RelativeLayout>

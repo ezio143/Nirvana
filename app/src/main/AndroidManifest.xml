@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.nirvana1">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_nirvana"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login_activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup_Activity" />
+        <activity
+            android:name=".Main_activity"
+            android:label="@string/title_activity_home_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name=".data.StudentProvider"
+            android:authorities="com.example.dell.nirvana1"
+            android:exported="false" />
+
+        <activity android:name=".CompleteProfile" />
+        <activity
+            android:name=".AddUserActivity"
+            android:label="@string/title_activity_department"
+            android:parentActivityName=".ShowAllUsersActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.nirvana1.Main_activity" />
+        </activity>
+        <activity
+            android:name=".ShowAllUsersActivity"
+            android:label="@string/department"
+            android:parentActivityName=".Main_activity" />
+        <activity
+            android:name=".DepartmentActivity"
+            android:label="@string/title_activity_department"
+            android:parentActivityName=".Main_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.nirvana1.Main_activity" />
+        </activity>
+        <activity
+            android:name=".AdminActivity"
+            android:parentActivityName=".Main_activity" />
+        <activity
+            android:name=".AcademicsActivity"
+            android:label="@string/title_activity_academics"
+            android:parentActivityName=".Main_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile_Activity"
+            android:label="@string/title_activity_profile_"
+            android:parentActivityName=".Main_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.nirvana1.Main_activity" />
+        </activity>
+        <activity
+            android:name=".DiscussActivity"
+            android:label="@string/title_activity_discuss"
+            android:parentActivityName=".Main_activity" />
+        <activity
+            android:name=".NotificationsActivity"
+            android:label="@string/title_activity_activities"
+            android:parentActivityName=".Main_activity"></activity>
+    </application>
+
+</manifest>
